@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="http://twitter.github.io/bootstrap/assets/css/bootstrap.css" rel="stylesheet">
+    <style>
+      body {
+        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+      }
+    </style>
+    <link href="http://twitter.github.io/bootstrap/assets/css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="../assets/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+  <style type="text/css">
+    body{
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      padding: 0px;
+    }
+    .container{
+      width: 100%;
+      height: 480px;
+    }
+    .bookshelf{
+      width: 100%;
+      max-width: 420px;
+      height: 480px;
+      background-image: url(./template_files/bookshelf.jpg);
+      background-size: 100% 480px;
+      background-repeat: no-repeat;
+      margin: 0px auto;
+      padding: 30px 10px 0px 10px;
+      box-sizing: border-box;
+    }
+    .books_row{
+      height: 92px;
+    }
+    .book{
+      width: 15%;
+      height: 70px;
+      margin: 12px 9.16% 0px 9.16%;
+      background-image: url(http://a1.mzstatic.com/us/r30/Publication/v4/84/bf/b9/84bfb9b2-657a-b2a8-2896-03629c41ec8a/V4HttpAssetRepositoryClient-ticket.kccgcwvm.png-2251190086839694996.225x225-75.jpg);
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      float: left;
+      background-clip:content-box;
+    }
+    .book.hot{
+      background-image: url(http://goodfellamedia.com/wp-content/uploads/2012/11/Berenice-Marlohe-Hot-Bond-Girl-FHM-Magazine-01.jpg);
+    }
+    .blur{
+      -webkit-filter: blur(4px);
+    }
+  </style>
+
+  <body>
+    <div class="container">
+      <div class="bookshelf">
+        <div class="books_row">
+          <div class="book"></div>
+          <div class="book hot blur"></div>
+        </div>
+      </div>
+    </div> <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./template_files/jquery.js"></script>
+    <script src="./template_files/bootstrap-transition.js"></script>
+    <script src="./template_files/bootstrap-alert.js"></script>
+    <script src="./template_files/bootstrap-modal.js"></script>
+    <script src="./template_files/bootstrap-dropdown.js"></script>
+    <script src="./template_files/bootstrap-scrollspy.js"></script>
+    <script src="./template_files/bootstrap-tab.js"></script>
+    <script src="./template_files/bootstrap-tooltip.js"></script>
+    <script src="./template_files/bootstrap-popover.js"></script>
+    <script src="./template_files/bootstrap-button.js"></script>
+    <script src="./template_files/bootstrap-collapse.js"></script>
+    <script src="./template_files/bootstrap-carousel.js"></script>
+    <script src="./template_files/bootstrap-typeahead.js"></script>
+    <script type="text/javascript">
+
+    </script>
+    <script type="text/javascript">
+      window.addEventListener("load",function() {
+        // Set a timeout...
+        setTimeout(function(){
+          // Hide the address bar!
+          window.scrollTo(0, 1);
+        }, 0);
+      });
+    </script>
+</html>
